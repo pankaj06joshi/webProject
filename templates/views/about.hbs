@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      {{>header}}
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <title>Dynamic Weather App</title>
+  </head>
+  <body>
+
+    {{!-- navbar  --}}
+    {{>navbar}}
+
+    <!-- main hearder -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side -->
+            <div class="col-md-6 col-12 main_header_left">
+                <figure>
+                    <img src="images/about.png" alt="alex" title="alex technologies" class="img-fluid">
+                </figure>
+            </div>
+            <!-- right side -->
+            <div class="col-md-6 col-12 main_header_rightt">
+                <p>Welcome to Alex technologies World</p>
+                <h1>I am a <span class="txt_clr">Mern Stack Developer</span>, And <span class="txt_clr">Business Man</span></h1>
+                <a href="#" target=""><button class="about_btn">About Me</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    {{>footer}}
+  </body>
+</html>

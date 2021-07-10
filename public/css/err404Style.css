@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.errimg img{
+    width: 61%;
+}
+
+.errimg {
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+.main_header_left {
+    height: 0;
+}
+}
